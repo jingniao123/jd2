@@ -3,7 +3,7 @@
 更新时间：2021-6-25
 修复做任务、收集电力出现火爆，不能完成任务，重新计算h5st验证
 参考自 ：https://www.orzlee.com/web-development/2021/03/03/lxk0301-jingdong-signin-scriptjingxi-factory-solves-the-problem-of-unable-to-signin.html
-活动入口：京东APP-游戏与互动-查看更多-京喜工厂
+活动入口：京东APP-游戏与互动-查看更多-京喜工厂1
 或者: 京东APP首页搜索 "玩一玩" ,造物工厂即可
 
 已支持IOS双京东账号,Node.js支持N个京东账号
