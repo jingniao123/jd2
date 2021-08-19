@@ -2,7 +2,7 @@
 签到领现金，每日2毛～5毛
 可互助，助力码每日不变，只变日期
 活动入口：京东APP搜索领现金进入
-更新时间：2021-06-071
+更新时间：2021-06-07
 已支持IOS双京东账号,Node.js支持N个京东账号
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
 ============Quantumultx===============
@@ -31,8 +31,8 @@ let helpAuthor = true;
 const randomCount = $.isNode() ? 5 : 5;
 let cash_exchange = false;//是否消耗2元红包兑换200京豆，默认否
 const inviteCodes = [
-  `eU9YE7DRIbpykzSSiTtk@eU9YaLi3YPoj-GyGzSAa1w@eU9YKa71H5ZThziBgTRZ`,
-  `eU9YaLi3YPoj-GyGzSAa1w@eU9YE7DRIbpykzSSiTtk@eU9YKa71H5ZThziBgTRZ`,
+  `eU9YaLi3YPoj-GyGzSAa1w@eU9YKa71H5ZThziBgTRZ@eU9YaOuzZakg9TqBmXcQ1w`,
+  `eU9YaLi3YPoj-GyGzSAa1w@eU9YKa71H5ZThziBgTRZ@eU9YaOuzZakg9TqBmXcQ1w`,
 ]
 if ($.isNode()) {
   Object.keys(jdCookieNode).forEach((item) => {
