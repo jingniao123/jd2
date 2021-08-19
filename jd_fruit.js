@@ -9,7 +9,7 @@
 一天只能帮助3个人。多出的助力码无效
 ==========================Quantumultx=========================
 [task_local]
-#jd免费水果 1
+#jd免费水果
 5 6-18/6 * * * jd_fruit.js, tag=东东农场, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png, enabled=true
 =========================Loon=============================
 [Script]
@@ -30,9 +30,9 @@ let cookiesArr = [], cookie = '', jdFruitShareArr = [], isBox = false, notify, n
 //下面给出两个账号的填写示例（iOS只支持2个京东账号）
 let shareCodes = [ // 这个列表填入你要助力的好友的shareCode
   //账号一的好友shareCode,不同好友的shareCode中间用@符号隔开
-  '7154c823f7df4fb991a1164b57c5ddf9@502ef17431b24b529c31c54ae077f5a8@df899f6ee44f432e998b5eb52acd68c2@84aa9f45df4241029748658ae8744b29',
+  '502ef17431b24b529c31c54ae077f5a8@df899f6ee44f432e998b5eb52acd68c2@f5e941834d1d4315a8190d7d270d1e58',
   //账号二的好友shareCode,不同好友的shareCode中间用@符号隔开
-  '7154c823f7df4fb991a1164b57c5ddf9@502ef17431b24b529c31c54ae077f5a8@df899f6ee44f432e998b5eb52acd68c2@84aa9f45df4241029748658ae8744b29',
+  '502ef17431b24b529c31c54ae077f5a8@df899f6ee44f432e998b5eb52acd68c2@f5e941834d1d4315a8190d7d270d1e58',
 ]
 let message = '', subTitle = '', option = {}, isFruitFinished = false;
 const retainWater = 100;//保留水滴大于多少g,默认100g;
