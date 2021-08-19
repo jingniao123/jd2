@@ -9,7 +9,7 @@ const $ = new Env('东东工厂');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
-let jdNotify = true;//是否关闭通知，false打开通知推送，true关闭通知推送0
+let jdNotify = true;//是否关闭通知，false打开通知推送，true关闭通知推送
 const randomCount = $.isNode() ? 20 : 5;
 //IOS等用户直接用NobyDa的jd cookie
 let cookiesArr = [], cookie = '', message;
@@ -24,8 +24,8 @@ if ($.isNode()) {
 }
 let wantProduct = ``;//心仪商品名称
 const JD_API_HOST = 'https://api.m.jd.com/client.action';
-const inviteCodes = [`T0205KkcP0J6shKDQkCz1r99CjVWnYaS5kRrbA`, 'T0225KkcREoc81LSKRinkqQDdQCjVWnYaS5kRrbA',
-`T0205KkcBVxejD6iVkyg3rBACjVWnYaS5kRrbA`];
+const inviteCodes = [`T0225KkcREoc81LSKRinkqQDdQCjVWnYaS5kRrbA`, 'T0205KkcBVxejD6iVkyg3rBACjVWnYaS5kRrbA',
+`T0225KkcRBkY9gHRJE6gxvMJdQCjVWnYaS5kRrbA`];
 !(async () => {
   await requireConfig();
   if (!cookiesArr[0]) {
