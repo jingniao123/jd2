@@ -1,5 +1,5 @@
 /*
-东东萌宠  更新地址： jd_pet.js
+东东萌宠 更新地址： jd_pet.js
 更新时间：2021-05-21
 活动入口：京东APP我的-更多工具-东东萌宠
 已支持IOS多京东账号,Node.js支持N个京东账号
@@ -31,9 +31,9 @@ let cookiesArr = [], cookie = '', jdPetShareArr = [], isBox = false, notify, new
 //下面给出两个账号的填写示例（iOS只支持2个京东账号）
 let shareCodes = [ // IOS本地脚本用户这个列表填入你要助力的好友的shareCode
    //账号一的好友shareCode,不同好友的shareCode中间用@符号隔开
-  'MTEyOTEzNzMzMDAwMDAwMDUxNzY3NjM3@MTE1NDY3NTIwMDAwMDAwNTEyNzk5ODE=@MTE1NDY3NTMwMDAwMDAwNTI1OTM4Njk=',
+  'MTE1NDY3NTIwMDAwMDAwNTEyNzk5ODE=@MTE1NDY3NTMwMDAwMDAwNTI1OTM4Njk=@MTEyOTEzNzMzMDAwMDAwMDUxMzAwOTM5',
   //账号二的好友shareCode,不同好友的shareCode中间用@符号隔开
-  'MTE1NDY3NTIwMDAwMDAwNTEyNzk5ODE=@MTEyOTEzNzMzMDAwMDAwMDUxNzY3NjM3@MTE1NDY3NTMwMDAwMDAwNTI1OTM4Njk=',
+  'MTE1NDY3NTIwMDAwMDAwNTEyNzk5ODE=@MTE1NDY3NTMwMDAwMDAwNTI1OTM4Njk=@MTEyOTEzNzMzMDAwMDAwMDUxMzAwOTM5',
 ]
 let message = '', subTitle = '', option = {};
 let jdNotify = false;//是否关闭通知，false打开通知推送，true关闭通知推送
